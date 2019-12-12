@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Practice_automation_suite">
+              <span class="suite-name border-failed">Automation Practice automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Practice_automation_suite">
+                    <span>TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Practice_automation_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Practice_automation_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Practice_automation_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Practice_automation_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Practice_automation_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Practice_automation_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Practice_automation_suite" class="hide-methods failed suite-Automation_Practice_automation_suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Practice_automation_suite -->
+                      <a href="#" panel-name="suite-Automation_Practice_automation_suite" class="show-methods failed suite-Automation_Practice_automation_suite"> (show)</a> <!-- show-methods failed suite-Automation_Practice_automation_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Practice_automation_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.RegistrationPageTest" hash-for-method="validateRegistration(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)">validateRegistration(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Practice_automation_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Practice_automation_suite" class="hide-methods passed suite-Automation_Practice_automation_suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Practice_automation_suite -->
+                      <a href="#" panel-name="suite-Automation_Practice_automation_suite" class="show-methods passed suite-Automation_Practice_automation_suite"> (show)</a> <!-- show-methods passed suite-Automation_Practice_automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Practice_automation_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.SignInPageTest" hash-for-method="SignInTest">SignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="clickOnContactLinkTest">clickOnContactLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.SignInPageTest" hash-for-method="clickOnForgotPasswdLinkTest">clickOnForgotPasswdLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="clickOnSignInLinkTest">clickOnSignInLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.SignInPageTest" hash-for-method="createAccountTest">createAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="getRegistrationPageTest">getRegistrationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.RegistrationPageTest" hash-for-method="read(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)">read(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="searchItemTest">searchItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.SignInPageTest" hash-for-method="validateTitleOfSignInPageTest">validateTitleOfSignInPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Practice_automation_suite" title="com.autoprac.qa.testcases.HomePageTest" hash-for-method="verifyLogoIsDisplayedTest">verifyLogoIsDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Practice_automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Practice_automation_suite" class="panel Automation_Practice_automation_suite">
+          <div class="suite-Automation_Practice_automation_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.autoprac.qa.testcases.RegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistration(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)">
+                  </a> <!-- validateRegistration(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88) -->
+                  <span class="method-name">validateRegistration</span>
+                  <span class="parameters">(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1834:fac9:fc32:e654%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:51964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3eb5924b47f591a0c284e4e58f67564
+*** Element info: {Using=id, value=customer_firstname}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.autoprac.qa.pages.RegistrationPage.validateRegistration(RegistrationPage.java:85)
+	at com.autoprac.qa.testcases.RegistrationPageTest.validateRegistration(RegistrationPageTest.java:64)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verifying SignIn page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_automation_suite-class-failed -->
+          <div class="suite-Automation_Practice_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autoprac.qa.testcases.SignInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInTest">
+                  </a> <!-- SignInTest -->
+                  <span class="method-name">SignInTest</span>
+                  <em>
+(signin into app test )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnForgotPasswdLinkTest">
+                  </a> <!-- clickOnForgotPasswdLinkTest -->
+                  <span class="method-name">clickOnForgotPasswdLinkTest</span>
+                  <em>
+(signin from SignIn page )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest">
+                  </a> <!-- createAccountTest -->
+                  <span class="method-name">createAccountTest</span>
+                  <em>
+(signin from SignIn page )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTitleOfSignInPageTest">
+                  </a> <!-- validateTitleOfSignInPageTest -->
+                  <span class="method-name">validateTitleOfSignInPageTest</span>
+                  <em>
+(verifying SignIn page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_automation_suite-class-passed -->
+          <div class="suite-Automation_Practice_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autoprac.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContactLinkTest">
+                  </a> <!-- clickOnContactLinkTest -->
+                  <span class="method-name">clickOnContactLinkTest</span>
+                  <em>
+(verifying Contact link on HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSignInLinkTest">
+                  </a> <!-- clickOnSignInLinkTest -->
+                  <span class="method-name">clickOnSignInLinkTest</span>
+                  <em>
+(verifying SignIn link on HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRegistrationPageTest">
+                  </a> <!-- getRegistrationPageTest -->
+                  <span class="method-name">getRegistrationPageTest</span>
+                  <em>
+(getting RegistrationPage from HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemTest">
+                  </a> <!-- searchItemTest -->
+                  <span class="method-name">searchItemTest</span>
+                  <em>
+(searching item on HomePage )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                  <em>
+(verifying HomePage title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoIsDisplayedTest">
+                  </a> <!-- verifyLogoIsDisplayedTest -->
+                  <span class="method-name">verifyLogoIsDisplayedTest</span>
+                  <em>
+(verifying logo is displayed on HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_automation_suite-class-passed -->
+          <div class="suite-Automation_Practice_automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autoprac.qa.testcases.RegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="read(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)">
+                  </a> <!-- read(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88) -->
+                  <span class="method-name">read</span>
+                  <span class="parameters">(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_automation_suite-class-passed -->
+        </div> <!-- panel Automation_Practice_automation_suite -->
+        <div panel-name="test-xml-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/tanu/eclipse-workspace/AutomationPracticeProject/src/main/resources/TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Automation Practice automation suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Different Automation Practice feature test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.autoprac.qa.testcases.SignInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.autoprac.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.autoprac.qa.testcases.RegistrationPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Different Automation Practice feature test --&gt;
+&lt;/suite&gt; &lt;!-- Automation Practice automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Practice automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Different Automation Practice feature test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Practice automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Practice automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Practice_automation_suite');
+function tableData_Automation_Practice_automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateRegistration')
+data.setCell(0, 2, 'com.autoprac.qa.testcases.RegistrationPageTest')
+data.setCell(0, 3, 10424);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnSignInLinkTest')
+data.setCell(1, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(1, 3, 7079);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnContactLinkTest')
+data.setCell(2, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(2, 3, 6447);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createAccountTest')
+data.setCell(3, 2, 'com.autoprac.qa.testcases.SignInPageTest')
+data.setCell(3, 3, 5319);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnForgotPasswdLinkTest')
+data.setCell(4, 2, 'com.autoprac.qa.testcases.SignInPageTest')
+data.setCell(4, 3, 5118);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignInTest')
+data.setCell(5, 2, 'com.autoprac.qa.testcases.SignInPageTest')
+data.setCell(5, 3, 1757);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchItemTest')
+data.setCell(6, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(6, 3, 1419);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getRegistrationPageTest')
+data.setCell(7, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(7, 3, 1273);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLogoIsDisplayedTest')
+data.setCell(8, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(8, 3, 285);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyHomePageTitleTest')
+data.setCell(9, 2, 'com.autoprac.qa.testcases.HomePageTest')
+data.setCell(9, 3, 142);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateTitleOfSignInPageTest')
+data.setCell(10, 2, 'com.autoprac.qa.testcases.SignInPageTest')
+data.setCell(10, 3, 52);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'read')
+data.setCell(11, 2, 'com.autoprac.qa.testcases.RegistrationPageTest')
+data.setCell(11, 3, 6);
+window.suiteTableData['Automation_Practice_automation_suite']= { tableData: data, tableDiv: 'times-div-Automation_Practice_automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-Automation_Practice_automation_suite">
+              </div> <!-- times-div-Automation_Practice_automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Practice automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Practice_automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autoprac.qa.testcases.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTitleOfSignInPageTest</span>
+                <span class="method-start">7475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignInTest</span>
+                <span class="method-start">13474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnForgotPasswdLinkTest</span>
+                <span class="method-start">26344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccountTest</span>
+                <span class="method-start">45571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50891 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autoprac.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoIsDisplayedTest</span>
+                <span class="method-start">55738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSignInLinkTest</span>
+                <span class="method-start">61244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getRegistrationPageTest</span>
+                <span class="method-start">72387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnContactLinkTest</span>
+                <span class="method-start">79729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">86295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">89727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItemTest</span>
+                <span class="method-start">93742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95162 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autoprac.qa.testcases.RegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">read(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</span>
+                <span class="method-start">100832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">101096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateRegistration(Chetan, G, 12345, C-88, Markham, Ontario, 45678, Canada, 9865473451, C-88)</span>
+                <span class="method-start">106719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117158 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

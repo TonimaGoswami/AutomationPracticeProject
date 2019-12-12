@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Automation Practice automation suite</th></tr>
+<tr><td><a href="#t0">Different Automation Practice feature test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">117,356</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practice automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different Automation Practice feature test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.autoprac.qa.testcases.RegistrationPageTest</td><td><a href="#m0">validateRegistration</a></td><td rowspan="1">1576001679734</td><td rowspan="1">10424</td></tr><tr><th colspan="4">Different Automation Practice feature test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.autoprac.qa.testcases.HomePageTest</td><td><a href="#m1">clickOnContactLinkTest</a></td><td rowspan="1">1576001652744</td><td rowspan="1">6447</td></tr><tr class="passedeven"><td><a href="#m2">clickOnSignInLinkTest</a></td><td rowspan="1">1576001634259</td><td rowspan="1">7079</td></tr><tr class="passedeven"><td><a href="#m3">getRegistrationPageTest</a></td><td rowspan="1">1576001645402</td><td rowspan="1">1273</td></tr><tr class="passedeven"><td><a href="#m4">searchItemTest</a></td><td rowspan="1">1576001666757</td><td rowspan="1">1419</td></tr><tr class="passedeven"><td><a href="#m5">verifyHomePageTitleTest</a></td><td rowspan="1">1576001662742</td><td rowspan="1">142</td></tr><tr class="passedeven"><td><a href="#m6">verifyLogoIsDisplayedTest</a></td><td rowspan="1">1576001628753</td><td rowspan="1">285</td></tr><tr class="passedodd"><td rowspan="1">com.autoprac.qa.testcases.RegistrationPageTest</td><td><a href="#m7">read</a></td><td rowspan="1">1576001673847</td><td rowspan="1">6</td></tr><tr class="passedeven"><td rowspan="4">com.autoprac.qa.testcases.SignInPageTest</td><td><a href="#m8">SignInTest</a></td><td rowspan="1">1576001586489</td><td rowspan="1">1757</td></tr><tr class="passedeven"><td><a href="#m9">clickOnForgotPasswdLinkTest</a></td><td rowspan="1">1576001599359</td><td rowspan="1">5118</td></tr><tr class="passedeven"><td><a href="#m10">createAccountTest</a></td><td rowspan="1">1576001618586</td><td rowspan="1">5319</td></tr><tr class="passedeven"><td><a href="#m11">validateTitleOfSignInPageTest</a></td><td rowspan="1">1576001580490</td><td rowspan="1">52</td></tr></tbody>
+</table>
+<h2>Different Automation Practice feature test</h2><h3 id="m0">com.autoprac.qa.testcases.RegistrationPageTest#validateRegistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Chetan</td><td>G</td><td>12345</td><td>C-88</td><td>Markham</td><td>Ontario</td><td>45678</td><td>Canada</td><td>9865473451</td><td>C-88</td></tr><tr><th colspan="10">Exception</th></tr><tr><td colspan="10"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#customer_firstname&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1834:fac9:fc32:e654%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:51964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3eb5924b47f591a0c284e4e58f67564
+*** Element info: {Using=id, value=customer_firstname}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.autoprac.qa.pages.RegistrationPage.validateRegistration(RegistrationPage.java:85)
+	at com.autoprac.qa.testcases.RegistrationPageTest.validateRegistration(RegistrationPageTest.java:64)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.autoprac.qa.testcases.HomePageTest#clickOnContactLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.autoprac.qa.testcases.HomePageTest#clickOnSignInLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.autoprac.qa.testcases.HomePageTest#getRegistrationPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.autoprac.qa.testcases.HomePageTest#searchItemTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.autoprac.qa.testcases.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.autoprac.qa.testcases.HomePageTest#verifyLogoIsDisplayedTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.autoprac.qa.testcases.RegistrationPageTest#read</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Chetan</td><td>G</td><td>12345</td><td>C-88</td><td>Markham</td><td>Ontario</td><td>45678</td><td>Canada</td><td>9865473451</td><td>C-88</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.autoprac.qa.testcases.SignInPageTest#SignInTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.autoprac.qa.testcases.SignInPageTest#clickOnForgotPasswdLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.autoprac.qa.testcases.SignInPageTest#createAccountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.autoprac.qa.testcases.SignInPageTest#validateTitleOfSignInPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

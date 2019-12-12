@@ -1,0 +1,9 @@
+com/autoprac/qa/pages/HomePage.class
+com/autoprac/qa/pages/CartPage.class
+com/autoprac/qa/pages/RegistrationPage.class
+com/autoprac/qa/pages/forgotPasswordPage.class
+com/autoprac/qa/base/TestBase.class
+com/autoprac/qa/utils/WebEventListener.class
+com/autoprac/qa/pages/ContactUsPage.class
+com/autoprac/qa/utils/TestUtil.class
+com/autoprac/qa/pages/SignInPage.class

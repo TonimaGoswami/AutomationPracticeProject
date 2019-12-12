@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41930" started-at="2019-12-03T00:37:25Z" finished-at="2019-12-03T00:38:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41930" started-at="2019-12-03T00:37:25Z" finished-at="2019-12-03T00:38:07Z">
+      <class name="com.autoprac.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="6015" started-at="2019-12-03T00:37:25Z" finished-at="2019-12-03T00:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnContactLinkTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="clickOnContactLinkTest" duration-ms="940" started-at="2019-12-03T00:37:31Z" finished-at="2019-12-03T00:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContactLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="208" started-at="2019-12-03T00:37:32Z" finished-at="2019-12-03T00:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="4926" started-at="2019-12-03T00:37:32Z" finished-at="2019-12-03T00:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSignInLinkTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="clickOnSignInLinkTest" duration-ms="6250" started-at="2019-12-03T00:37:37Z" finished-at="2019-12-03T00:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="170" started-at="2019-12-03T00:37:43Z" finished-at="2019-12-03T00:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="4049" started-at="2019-12-03T00:37:44Z" finished-at="2019-12-03T00:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getRegistrationPageTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="getRegistrationPageTest" duration-ms="1983" started-at="2019-12-03T00:37:48Z" finished-at="2019-12-03T00:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRegistrationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="290" started-at="2019-12-03T00:37:50Z" finished-at="2019-12-03T00:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="3957" started-at="2019-12-03T00:37:50Z" finished-at="2019-12-03T00:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchItemTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="searchItemTest" duration-ms="3516" started-at="2019-12-03T00:37:54Z" finished-at="2019-12-03T00:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="121" started-at="2019-12-03T00:37:57Z" finished-at="2019-12-03T00:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="4457" started-at="2019-12-03T00:37:57Z" finished-at="2019-12-03T00:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="verifyHomePageTitleTest" duration-ms="130" started-at="2019-12-03T00:38:02Z" finished-at="2019-12-03T00:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="239" started-at="2019-12-03T00:38:02Z" finished-at="2019-12-03T00:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="4154" started-at="2019-12-03T00:38:02Z" finished-at="2019-12-03T00:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoIsDisplayedTest()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="verifyLogoIsDisplayedTest" duration-ms="291" started-at="2019-12-03T00:38:06Z" finished-at="2019-12-03T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoIsDisplayedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoprac.qa.testcases.HomePageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="170" started-at="2019-12-03T00:38:07Z" finished-at="2019-12-03T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autoprac.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
